@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">cw1</string>
+    <string name="app_name">cw1 PIZZA</string>
     <string name="text1">Krzysztof Przybylski</string>
     <string name="button1">Przycisk 1</string>
     <string name="button2">Przycisk 2</string>
@@ -7,4 +7,14 @@
     <string name="text3">Aby cofnąć użyj paska tytułu lub przycisku Powrót</string>
     <string name="back">Powrót</string>
     <string name="button3">Przycisk 3</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="enableCloseToast">Enable close toast</string>
+    <string name="name">Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="titleMale">Mr.</string>
+    <string name="titleFemale">Ms.</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="buttonScrolling">Run scrolling</string>
+    <string name="pizza">Pizza</string>
 </resources>

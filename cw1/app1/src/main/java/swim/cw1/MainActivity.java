@@ -27,8 +27,18 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent2);
     }
 
-    public void runThird(View view) {
-        final Intent intent3 = new Intent(this, Main3Activity.class);
+    public void runFourth(View view) {
+        final Intent intent3 = new Intent(this, Main4Activity.class);
         startActivity(intent3);
+    }
+
+    public void runScrolling(View view) {
+        final Intent intentScrolling = new Intent(this, ScrollingActivity.class);
+        startActivity(intentScrolling);
+    }
+
+    public void runRelative(View view) {
+        final Intent intentRelative = new Intent(this, RelativeActivity.class);
+        startActivity(intentRelative);
     }
 }

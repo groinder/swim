@@ -4,14 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="swim.cw1.MainActivity">
+    tools:context="swim.cw1.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonRelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="runRelative"
+        android:text="@string/pizza" />
+
+    <Button
+        android:id="@+id/buttonScrolling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="runScrolling"
+        android:text="@string/buttonScrolling" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:onClick="runThird"
+        android:layout_gravity="center_horizontal"
+        android:onClick="runFourth"
         android:text="@string/button3" />
 
     <Button
@@ -19,7 +36,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
         android:text="@string/button1" />
 
     <Button
@@ -27,7 +43,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
         android:onClick="runSecond"
         android:text="@string/button2" />
 
@@ -37,9 +52,6 @@
         android:text="@string/text1"
         android:textAlignment="center"
         android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>

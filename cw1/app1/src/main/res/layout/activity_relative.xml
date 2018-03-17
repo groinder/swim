@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context="swim.cw1.RelativeActivity">
+
+    <ImageView
+        android:id="@+id/pizza"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="173dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/pizza"
+        android:cropToPadding="false"
+        android:src="@drawable/pizza" />
+
+    <ImageView
+        android:id="@+id/pizza2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/pizza"
+        android:layout_alignTop="@+id/pizza"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="25dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/pizza"
+        android:cropToPadding="false"
+        android:src="@drawable/pizza" />
+
+    <ImageView
+        android:id="@+id/pizza3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/pizza2"
+        android:layout_alignTop="@+id/pizza2"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="25dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/pizza"
+        android:cropToPadding="false"
+        android:src="@drawable/pizza" />
+
+    <ImageView
+        android:id="@+id/pizza4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/pizza3"
+        android:layout_alignTop="@+id/pizza3"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="25dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/pizza"
+        android:cropToPadding="false"
+        android:src="@drawable/pizza" />
+</RelativeLayout>
