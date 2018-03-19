@@ -17,4 +17,8 @@
     <string name="title_activity_scrolling">ScrollingActivity</string>
     <string name="buttonScrolling">Run scrolling</string>
     <string name="pizza">Pizza</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="usun">Usuń</string>
+    <string name="oblicz">Oblicz</string>
+    <string name="operation">Operacja</string>
 </resources>

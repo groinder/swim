@@ -8,6 +8,14 @@
     android:orientation="vertical">
 
     <Button
+        android:id="@+id/buttonOperation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="runForOperation"
+        android:text="@string/operation" />
+
+    <Button
         android:id="@+id/buttonRelative"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -30,7 +30,9 @@
         <activity
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling" />
-        <activity android:name=".RelativeActivity"></activity>
+        <activity android:name=".RelativeActivity" />
+        <activity android:name=".OperationActivity" />
+        <activity android:name=".ResultActivity"></activity>
     </application>
 
 </manifest>

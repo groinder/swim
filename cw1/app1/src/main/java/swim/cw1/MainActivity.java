@@ -41,4 +41,9 @@ public class MainActivity extends AppCompatActivity {
         final Intent intentRelative = new Intent(this, RelativeActivity.class);
         startActivity(intentRelative);
     }
+
+    public void runForOperation(View view) {
+        final Intent intentOperation = new Intent(this, OperationActivity.class);
+        startActivity(intentOperation);
+    }
 }
