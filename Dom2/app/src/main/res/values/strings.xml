@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dom2</string>
+    <string name="firstName">First name</string>
+    <string name="lastName">Last name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="sex">Sex</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="editPersonalData">Edit personal data</string>
+    <string name="saveToFile">Save to file</string>
+    <string name="previewSavedFile">Preview saved file</string>
+    <string name="sendAsTextMessage">Send data as text message</string>
+    <string name="phone">Phone</string>
+    <string name="send">Send</string>
+</resources>

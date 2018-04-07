@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\studia_informatyka\swim\cw2\app\app.iml" filepath="C:\studia_informatyka\swim\cw2\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/cw2.iml" filepath="$PROJECT_DIR$/cw2.iml" />
+      <module fileurl="file://C:\studia_informatyka\swim\cw2\cw2.iml" filepath="C:\studia_informatyka\swim\cw2\cw2.iml" />
     </modules>
   </component>
 </project>
