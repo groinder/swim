@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">cw2</string>
+    <string name="listaProsta">Lista Prosta</string>
+    <string name="listaMultichoice">Lista Multichoice</string>
+    <string name="gridView">Grid View</string>
+    <string name="listaDost">Lista Dostosowana</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.krzys.cw2.InitialActivity">
+
+    <Button
+        android:id="@+id/btnListaProsta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/listaProsta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        android:onClick="runLista1"/>
+
+    <Button
+        android:id="@+id/btnListaMultichoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="runLista2"
+        android:text="@string/listaMultichoice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <Button
+        android:id="@+id/btnGridView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gridView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        android:onClick="runGrid1"/>
+
+    <Button
+        android:id="@+id/btnListaDost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="runLista3"
+        android:text="@string/listaDost"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207" />
+
+</android.support.constraint.ConstraintLayout>
