@@ -1,8 +1,11 @@
 package com.example.krzys.dom2;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 
@@ -12,37 +15,25 @@ import java.io.FileOutputStream;
 
 public class PersonalDataPreviewActivity extends AppCompatActivity {
 
+    EditText editText;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_presonal_data_preview);
 
-        readPersonalDataFromFile();
+        Intent intent = getIntent();
+        Uri data = intent.getData();
+
+        editText = findViewById(R.id.personalDataPreviewText);
+        editText.setText(data.toString());
     }
 
-    private void readPersonalDataFromFile() {
-        FileInputStream is;
 
-        try {
-            is = openFileInput("personalData");
-
-            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-
-            int bytesRead;
-            byte[] b = new byte[1024];
-            while ((bytesRead = is.read(b)) != -1) {
-                baos.write(b, 0, bytesRead);
-            }
-
-            String data = baos.toString();
-
-            EditText editText = findViewById(R.id.personalDataPreviewText);
-            editText.setText(data);
-
-            is.close();
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+    public void save(View view) {
+        Intent intent = getIntent();
+        intent.setData(Uri.parse(editText.getText().toString()));
+        setResult(1, intent);
+        finish();
     }
 }

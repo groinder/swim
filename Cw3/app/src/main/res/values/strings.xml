@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cw3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_fragment_11">Hello fragment 11</string>
+    <string name="hello_fragment_12">Hello fragment 12</string>
+    <string name="opcja1">Opcja 1</string>
+    <string name="opcja2">Opcja 2</string>
+    <string name="button1">Button1</string>
+    <string name="run_calendar">Run calendar</string>
+    <string name="run_camera">Run Camera</string>
+    <string name="run_email">Run email</string>
+    <string name="run_dial">Run dial</string>
+</resources>

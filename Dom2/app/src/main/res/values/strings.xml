@@ -13,4 +13,8 @@
     <string name="sendAsTextMessage">Send data as text message</string>
     <string name="phone">Phone</string>
     <string name="send">Send</string>
+    <string name="changesSaved">Changes saved!</string>
+    <string name="saveChanges">Save changes</string>
+    <string name="status">Status</string>
+    <string name="rateThis">Rate this from 0 -100%</string>
 </resources>
