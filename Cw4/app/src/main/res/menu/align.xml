@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:mlns="http://schemas.android.com/apk/res/android">
+    <item
+        mlns:id="@+id/xmlTextLeft"
+        mlns:title="@string/left" />
+    <item
+        mlns:id="@+id/xmlTextCenter"
+        mlns:title="@string/center" />
+    <item
+        mlns:id="@+id/xmlTextRight"
+        mlns:title="@string/right" />
+</menu>

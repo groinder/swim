@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:mlns="http://schemas.android.com/apk/res/android">
+    <item
+        mlns:id="@+id/xmlTextCopy"
+        mlns:title="@string/copy"
+        mlns:icon="@drawable/copy"/>
+    <item
+        mlns:id="@+id/xmlTextSelectAll"
+        mlns:title="@string/selectAll"
+        mlns:icon="@drawable/select_all"/>
+    <item
+        mlns:id="@+id/xmlTextClear"
+        mlns:title="@string/clear"
+        mlns:icon="@drawable/clear"/>
+</menu>

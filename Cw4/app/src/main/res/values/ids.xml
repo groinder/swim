@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="javaRedColor" type="id"/>
+    <item name="javaBlueColor" type="id"/>
+    <item name="javaYellowColor" type="id"/>
+    <item name="javaTextLeft" type="id"/>
+    <item name="javaTextCenter" type="id"/>
+    <item name="javaTextRight" type="id"/>
+    <item name="javaTextAlign" type="id"/>
+    <item name="javaButtonText" type="id"/>
+    <item name="javaButtonBg" type="id"/>
+    <item name="javaButtonSize" type="id"/>
+    <item name="javaTextCopy" type="id"/>
+    <item name="javaTextSelectAll" type="id"/>
+    <item name="javaTextClear" type="id"/>
+</resources>

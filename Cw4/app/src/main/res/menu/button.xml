@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:mlns="http://schemas.android.com/apk/res/android">
+    <item
+        mlns:id="@+id/xmlButtonText"
+        mlns:checkable="true"
+        mlns:title="@string/alternativeTextColor" />
+    <item
+        mlns:id="@+id/xmlButtonBg"
+        mlns:checkable="true"
+        mlns:title="@string/alternativeBgColor" />
+    <item
+        mlns:id="@+id/xmlButtonSize"
+        mlns:checkable="true"
+        mlns:title="@string/alternativeSize" />
+</menu>

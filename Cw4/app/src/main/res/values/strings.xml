@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cw4</string>
+    <string name="xml">XML</string>
+    <string name="java">Java</string>
+    <string name="firstName">First name</string>
+    <string name="lastName">Last name</string>
+    <string name="changeColor">Change color</string>
+    <string name="redColor">Red color</string>
+    <string name="blueColor">Blue color</string>
+    <string name="yellowColor">Yellow color</string>
+    <string name="textAlign">Text align</string>
+    <string name="left">Left</string>
+    <string name="center">Center</string>
+    <string name="right">Right</string>
+    <string name="loremIpsum">Donec ullamcorper, enim vehicula magna felis vitae mauris. Nunc id sapien tristique id, elit. Quisque adipiscing dolor sit amet turpis semper nisl, a ante ligula tempor eros orci ipsum, ultricies urna et velit. Praesent nec ante. Proin id dui. In nonummy. Sed sagittis ac, mattis nec, nibh. Morbi id felis. Integer quis enim. Phasellus orci luctus et ultrices posuere risus. Phasellus ornare a, condimentum tempor, dolor sit amet, vulputate eget, lacinia scelerisque, ligula quis neque. Phasellus tempor pede eget tortor. Sed placerat consequat. Donec nec malesuada congue. Proin cursus non, leo. Curabitur arcu mi ligula, quis lacus. Pellentesque ornare eu.</string>
+    <string name="copy">Copy</string>
+    <string name="selectAll">Select All</string>
+    <string name="clear">Clear</string>
+    <string name="customize">Long press to customize</string>
+    <string name="alternativeTextColor">Alternative text color</string>
+    <string name="alternativeBgColor">Alternative Background color</string>
+    <string name="alternativeSize">Alternatiive size</string>
+</resources>
